@@ -1,0 +1,58 @@
+Concept :
+
+Application permettant de partager des itinéraires de randonnées sur une carte et d'enregistrer les parcours des utilisateurs.
+
+
+Fonctionnalités :
+
+	Fonctionnalité principales :
+		Partage des itinéraires 
+		Ajout de randonnées
+		Suivi de la randonnée
+		Système d'anotations(limité pour compte gratuit)
+		Implémenter les cartes randonnées (gr etc...)
+		Commentaires, notes
+		Prise en compte de plusieurs langues
+		Calcul nombre kilomètres parcouru
+		Systeme numéro d'urgence
+		Parking ou à défaut emplacement pour se garer
+		Recommandation quantité d'eau 
+		Matériel
+		Equitation
+		
+
+	Fonctionnalité secondaires :
+		Compte en ligne / hors ligne
+		Classification de niveaux / temps;
+		Randonnées parcours aménagé
+		Prise en compte parcours cyclable
+		Parcours de pêche
+		Parcours touristique (parcours ville, chateau...)
+		Publicité ciblée
+		Historique, temps, vitesse moyenne
+		Points d'eau
+		Gestion de compte parents/enfants
+		Système pour alerter lorsqu'on sort de l'itinéraire
+		Economie d'énergie
+
+	Complémentaire :
+		-Dépense calorique
+		-Prise en compte de plusieurs maps
+		-Etapes
+		-Photos
+	
+Technologies : 
+
+	Open street map(pour la carte)
+
+	Front :
+		C# (xamarin ?)
+		Angular ?
+
+	Base de données no sql pour les parcours, base de données sql pour utilisateurs(sql server)
+	Transfert de donnéers en json
+
+Comptes utilisateurs :
+
+	-Mis en lien avec Api Google / facebook / apple
+	-Nom, prénom, date naissance, adresse
